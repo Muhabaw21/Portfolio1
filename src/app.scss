@@ -1,0 +1,21 @@
+.po{
+height: 100vh;
+.se{
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: lightsalmon;
+  position: relative;
+  scroll-behavior: smooth;
+  top: 70px;
+ scroll-snap-type: y mandatory;
+ &::-webkit-scrollbar{
+  display: none;
+ }
+  > *{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    scroll-snap-align: start;
+  }
+}
+
+}
